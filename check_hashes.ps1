@@ -1,4 +1,4 @@
-# Delete lines 2, 47-48 and 50-EoF if you want to remove the output function, I'll delete it in an update but rn I need data for debugging purposes.
+# Delete lines 2, 47-48 and 51-EoF if you want to remove the output function, I'll delete it in an update but rn I need data for debugging purposes.
 Start-Transcript -Force -Path ".\output.log"
 
 # Path to Skyrim Directory (The one with SkyrimSE.exe)
@@ -44,9 +44,10 @@ if ($missAmount -eq 0) {
     Write-Host "`nScan complete, files with wrong hashes: $($missAmount)`n" -ForegroundColor DarkRed
     Write-Host "You can check the steam repos you'll have to redownload in the file file_table.txt" -ForegroundColor DarkRed
 }
-Write-Host "In the case you've encountered problems (such as having a working SkyrimSE 1.5.97 and still getting hashes that do not match), send me the output.log file to eris.semiprofessional@gmail.com with 'SkyrimSE hash checker' as Subject." -ForegroundColor DarkMagenta
-Write-Host "The file doesn't contain any sensitive information and it might help me debug this program." -ForegroundColor DarkMagenta
+Write-Host "In the case you've encountered problems (such as having a working SkyrimSE 1.5.97 and still getting hashes that do not match), send me the contents of the program folder to eris.semiprofessional@gmail.com with 'SkyrimSE hash checker' as Subject." -ForegroundColor DarkMagenta
+Write-Host "The files don't contain any sensitive information and it might help me debug this program." -ForegroundColor DarkMagenta
 Write-Host "`nThanks for using SkyrimSE hash checker! -Eris" -ForegroundColor DarkMagenta
+Pause
 
 Stop-Transcript
 
