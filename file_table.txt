@@ -1,0 +1,35 @@
+File specs can be found at https://steamdb.info/app/489830/
+
+-app 489830 -depot 489831 -manifest 7848722008564294070
+	Data/Skyrim - Animations.bsa
+	Data/Skyrim - Meshes0.bsa
+	Data/Skyrim - Meshes1.bsa
+	Data/Skyrim - Misc.bsa
+	Data/Skyrim - Sounds.bsa
+	Data/Skyrim - Voices_en0.bsa
+	Data/Video/BGS_Logo.bik
+	installscript.vdf
+
+-app 489830 -depot 489832 -manifest 8702665189575304780
+	binkw64.dll
+	Data/Dawnguard.esm
+	Data/Dragonborn.esm
+	Data/HearthFires.esm
+	Data/Skyrim - Interface.bsa
+	Data/Skyrim - Shaders.bsa
+	Data/Skyrim - Textures0.bsa
+	Data/Skyrim - Textures1.bsa
+	Data/Skyrim - Textures2.bsa
+	Data/Skyrim - Textures3.bsa
+	Data/Skyrim - Textures4.bsa
+	Data/Skyrim - Textures5.bsa
+	Data/Skyrim - Textures6.bsa
+	Data/Skyrim - Textures7.bsa
+	Data/Skyrim - Textures8.bsa
+	Data/Skyrim.esm
+	Data/Update.esm
+	Skyrim.ccc
+	SkyrimSELauncher.exe
+
+-app 489830 -depot 489833 -manifest 2289561010626853674
+	SkyrimSE.exe
