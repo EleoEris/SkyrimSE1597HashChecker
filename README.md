@@ -6,3 +6,6 @@ Run the bat file and read the output.
 
 TODO:
 - hash and check only the necessary files
+
+Known bugs:
+- might break if too many files
